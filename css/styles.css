@@ -1,0 +1,139 @@
+.logIn {
+    font-family: 'Cabin', sans-serif;
+    padding-left: 100px;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding-left: 110px;
+}
+
+.socialIcon {
+    font-size: 50px;
+    width: 50px;
+}
+
+.landingBody {
+    background-color: #ff3860;
+}
+
+.mainHeader {
+    background-color: #ff3860;
+}
+
+.connectArea {
+    background-color: #ff3860;
+}
+
+.logInAtLogInPage {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.logInAtLogInPageSignUp {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-left: 10px;
+}
+
+
+.submitButtonsEverywhere {
+    font-family: 'Cabin', sans-serif;
+    margin: 5px;
+    display: inline;
+}
+
+#btnLogout {
+    display: none;
+    float: left;
+}
+
+#errorDisplay {
+    text-align: center;
+}
+
+.newSearch {
+    font-family: 'Cabin', sans-serif;
+}
+
+.iconTwitter {
+    margin-right: 70px;
+}
+
+.column figure img {
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+.column figure:hover img {
+    opacity: .9;
+    transform: scale(1.05);
+}
+
+.displayRestaurant {
+    display: inline;
+}
+
+.radioButton {
+    float: right;
+}
+
+.box figure img {
+	opacity: 1;
+	transition: .3s ease-in-out;
+}
+
+.box figure:hover img {
+	opacity: .8;
+  transform: scale(1.05);
+}
+
+/* Responsiveness tried no results (syntax) */
+
+
+/* =from($device)
+  @media screen and (min-width: $device)
+    @content
+
+=until($device)
+  @media screen and (max-width: $device - 1px)
+    @content
+
+=mobile
+  @media screen and (max-width: $tablet - 1px)
+    @content
+
+=tablet
+  @media screen and (min-width: $tablet), print
+    @content
+
+=tablet-only
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px)
+    @content
+
+=touch
+  @media screen and (max-width: $desktop - 1px)
+    @content
+
+=desktop
+  @media screen and (min-width: $desktop)
+    @content
+
+=desktop-only
+  @media screen and (min-width: $desktop) and (max-width: $widescreen - 1px)
+    @content
+
+=widescreen
+  @media screen and (min-width: $widescreen)
+    @content
+
+=widescreen-only
+  @media screen and (min-width: $widescreen) and (max-width: $fullhd - 1px)
+    @content
+
+=fullhd
+  @media screen and (min-width: $fullhd)
+    @content */

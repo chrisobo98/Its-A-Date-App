@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
+
+    <!--Import Bulma.css-->
+    <link type= "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+    <link type= "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
+
+    <!-- Link Stylesheet -->
+
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/bulma.css">
+    <link type="text/css" rel="stylesheet" href="css/bulma.css.map.txt">
+
+    <!-- Font Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+
+    <!--mobile optimization-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+</head>
+<body>
+<section class="hero is-success is-fullheight">
+    <div class="hero-head mainHeader">
+        <nav class="navbar is-danger">
+            <div class="navbar-brand logo">
+                <a class="navbar-item">
+                    It's A Date
+                </a>
+            </div>
+
+            <div class="navbar-end logo">
+                <div class="navbar-item">
+                    <div class="field is-grouped iconTwitter">
+                        <p class="control">
+                            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io"
+                                href="login.html">
+                                <span class="icon">
+                                    <i class="fa fa-key"></i>
+                                </span>
+                                <span>
+                                    Log In
+                                </span>
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    </div>
+
+    <div class="hero-body landingBody">
+        <div class="container has-text-centered">
+            <div class="column is-4 is-offset-4">
+                <h3 class="title logInAtLogInPage">Sign Up</h3>
+                <p class="subtitle logInAtLogInPage">Please fill out information to proceed.</p>
+                <div class="box">
+                    <form>
+                        <div class="field">
+                            <label class="label" id= "firstName">First Name</label>
+                            <p class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Please type your First Name...">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <label class="label" id= "lastName">Last Name</label>
+                            <p class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Please type your Last Name...">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" id= "emailAddress">Email</label>
+                            <p class="control has-icons-left">
+                                <input class="input" type="text" placeholder="e.g loverboy14@yahoo.com" id="emailInput">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" id:= "password">Password</label>
+                            <p class="control has-icons-left">
+                                <input class="input" type="password" placeholder="Make it good..." id="pswdInput">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-key"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" id="passwordConfirm">Confirm Password</label>
+                            <p class="control has-icons-left">
+                                <input class="input" type="password" placeholder="Just making sure..." id="confirmInput">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+
+                                <button class="button is-block is-danger is-large submitButtonsEverywhere" id="btnSignup">Sign Up</button>
+                                <!-- <button class="button is-block is-danger is-large submitButtonsEverywhere" id="btnLogout">Log Out</button> -->
+                            </div>
+                        </div>
+                    </form>
+                    <p id="errorDisplay"></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+</section>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<script src="assets/javascript/fbase.js"></script>
+</body>
+</HTML>

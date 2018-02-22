@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
+
+    <!--Import Bulma.css-->
+    <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+    <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
+
+    <!-- Link Stylesheet -->
+
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/bulma.css">
+    <link type="text/css" rel="stylesheet" href="css/bulma.css.map.txt">
+
+    <!-- Font Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--mobile optimization-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It's a Date | Search</title>
+</head>
+<body>
+<!-- navbar -->
+<section class="hero is-danger is-fullheight">
+    <nav class="navbar is-danger">
+        <div class="navbar-brand logo">
+            <a class="navbar-item">
+                It's A Date
+            </a>
+        </div>
+
+        <div class="navbar-end logo">
+            <div class="navbar-item">
+                 <div class="field is-grouped">
+                    <p class="control">
+                        <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io"
+                            target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&hashtags=bulmaio&url=http://bulma.io&via=jgthms">
+                            <span class="icon">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                            <span>
+                                Tweet
+                            </span>
+                        </a>
+
+                    </p>
+                </div>
+            </div>
+            <div class="navbar-item">
+                <div class="field is-grouped iconTwitter">
+                    <p class="control">
+                        <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io"
+                            href="login.html">
+                            <span class="icon">
+                                <i class="fa fa-sign-out"></i>
+                            </span>
+                            <span>
+                                Logout
+                            </span>
+                        </a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- location box -->
+    <div class="hero-body landingBody">
+        <div class="container has-text-centered">
+            <div class="column is-4 is-offset-4">
+                <h3 class="title logInAtLogInPage">Search</h3>
+                <p class="subtitle logInAtLogInPage">Plan your date in one place!</p>
+                <div class="box">
+                    <figure class="avatar locationSearch">
+                        <!-- <a href="results.html"> -->
+                        <img src="css/location.png">
+                        <!--                        </a>-->
+                    </figure>
+                    <form>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-large" type="text" placeholder="Zip Code" autofocus="" id="zipInput">
+                            </div>
+                        </div>
+                        <a class="button is-block is-danger is-large submitButtonsEverywhere locationSearch" id="zipSearch">Search</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- <script src="assets/javascript/location.js"></script> -->
+<script src="assets/javascript/event.js"></script>
+</body>
+</HTML>

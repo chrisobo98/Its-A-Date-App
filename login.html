@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
+
+    <!--Import Bulma.css-->
+    <link type= "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+    <link type= "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
+
+    <!-- Link Stylesheet -->
+
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/bulma.css">
+    <link type="text/css" rel="stylesheet" href="css/bulma.css.map.txt">
+
+    <!-- Font Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--mobile optimization-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+</head>
+
+<body>
+<section class="hero is-success is-fullheight">
+    <div class="hero-head mainHeader">
+        <nav class="navbar is-danger">
+            <div class="navbar-brand logo">
+                <a class="navbar-item">
+                    It's A Date
+                </a>
+            </div>
+
+            <div class="navbar-end logo">
+                <div class="navbar-item">
+                    <div class="field is-grouped iconTwitter">
+                        <p class="control">
+                            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io"
+                                href="index.html">
+                                <span class="icon">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <span>
+                                    Sign Up
+                                </span>
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+<!--  </div>-->
+    </nav>
+    </div>
+
+    <div class="hero-body landingBody">
+        <div class="container has-text-centered">
+            <div class="column is-4 is-offset-4">
+                <h3 class="title logInAtLogInPage">Login</h3>
+                <p class="subtitle logInAtLogInPage">Please login to proceed.</p>
+                <div class="box">
+                    <form>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-large" type="email" placeholder="Your Email" autofocus="">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-large" type="password" placeholder="Your Password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="checkbox">
+                                <input type="checkbox"> Remember me
+                            </label>
+                        </div>
+                        <a href="location.html" class="button is-block is-danger is-large submitButtonsEverywhere">Login</a>
+                    </form>
+                </div>
+                <p>
+                    <a class="logInAtLogInPageSignUp" href="index.html">Sign Up</a> &nbsp;·&nbsp;
+                    <a class="logInAtLogInPage" href="../">Forgot Password</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/javascript/fbase.js"></script>
+</body>
+</HTML>
